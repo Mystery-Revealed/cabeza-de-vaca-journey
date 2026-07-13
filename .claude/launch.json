@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cabeza-de-vaca-journey",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--env-file=.claude/preview.env", "server/src/index.js"],
+      "port": 4100
+    }
+  ]
+}
